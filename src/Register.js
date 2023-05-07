@@ -29,12 +29,12 @@ const RegistrationForm = () => {
 
     // Configure AWS SDK with your credentials
     const s3 = new AWS.S3({
-      accessKeyId: "AKIAZBWOIJE5FCGJVHWQ",
-      secretAccessKey: "mdR9oqukDYdvV2Z/puroX/A8Ft1PhQpkLD5EBOex",
+      accessKeyId: ,
+      secretAccessKey: ,
     });
 
     // Specify bucket name and file name
-    const bucketName = "aniketbucket17";
+    const bucketName = ;
     const fileName = `${formData.firstName}-${formData.lastName}.json`;
 
     // Convert form data to JSON string
